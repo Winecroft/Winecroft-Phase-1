@@ -1,0 +1,435 @@
+2018-01-19T15:56:06+00:00 CRITICAL Call to undefined function mime_content_type()
+
+2018-01-19T15:56:31+00:00 CRITICAL Call to undefined function mime_content_type()
+
+2018-01-19T15:57:04+00:00 CRITICAL Call to undefined function mime_content_type()
+
+2018-01-19T16:10:44+00:00 CRITICAL Call to undefined function mime_content_type()
+
+2018-01-19T16:10:48+00:00 CRITICAL Call to undefined function mime_content_type()
+
+2018-01-19T16:11:52+00:00 CRITICAL Call to undefined function mime_content_type()
+
+2018-01-19T16:11:57+00:00 CRITICAL Call to undefined function mime_content_type()
+
+2018-01-19T16:12:16+00:00 CRITICAL Call to undefined function mime_content_type()
+
+2018-01-19T16:12:24+00:00 CRITICAL Call to undefined function mime_content_type()
+
+2018-01-19T16:13:41+00:00 CRITICAL Call to undefined function mime_content_type()
+
+2018-01-19T16:13:57+00:00 CRITICAL Class 'finfo' not found
+
+2018-01-19T16:21:59+00:00 CRITICAL Call to undefined function get_mime_type()
+
+2018-01-19T16:23:56+00:00 CRITICAL Call to undefined function mime_content_type()
+
+2018-01-19T16:24:53+00:00 CRITICAL Call to undefined function mime_content_type()
+
+2018-01-19T16:25:01+00:00 CRITICAL Class 'finfo' not found
+
+2018-01-24T16:46:11+00:00 CRITICAL Uncaught exception 'Less_Exception_Chunk' with message 'ParseError: Unexpected input in wp-styles.less on line 462, column 5
+460| 			float:left;
+461| 			a {
+462| 				padding-right:15px;
+463| 				color:@secondary;
+464| 				.maintext;
+465| 				display:block;' in /home/winecroft/public_html/wp-content/plugins/wp-less/vendor/oyejorge/less.php/lib/Less/Parser.php:535
+Stack trace:
+#0 /home/winecroft/public_html/wp-content/plugins/wp-less/vendor/oyejorge/less.php/lib/Less/Parser.php(474): Less_Parser->GetRules('/home/winecroft...')
+#1 /home/winecroft/public_html/wp-content/plugins/wp-less/vendor/oyejorge/less.php/lib/Less/Parser.php(346): Less_Parser->_parse('/home/winecroft...')
+#2 /home/winecroft/public_html/wp-content/plugins/wp-less/vendor/oyejorge/less.php/lessc.inc.php(147): Less_Parser->parseFile('/home/winecroft...')
+#3 /home/winecroft/public_html/wp-content/plugins/wp-less/vendor/oyejorge/less.php/lessc.inc.php(225): lessc->compileFile('/home/winecroft...')
+#4 /home/winecroft/public_html/wp-content/pl
+
+2018-01-24T16:46:13+00:00 CRITICAL Uncaught exception 'Less_Exception_Chunk' with message 'ParseError: Unexpected input in wp-styles.less on line 462, column 5
+460| 			float:left;
+461| 			a {
+462| 				padding-right:15px;
+463| 				color:@secondary;
+464| 				.maintext;
+465| 				display:block;' in /home/winecroft/public_html/wp-content/plugins/wp-less/vendor/oyejorge/less.php/lib/Less/Parser.php:535
+Stack trace:
+#0 /home/winecroft/public_html/wp-content/plugins/wp-less/vendor/oyejorge/less.php/lib/Less/Parser.php(474): Less_Parser->GetRules('/home/winecroft...')
+#1 /home/winecroft/public_html/wp-content/plugins/wp-less/vendor/oyejorge/less.php/lib/Less/Parser.php(346): Less_Parser->_parse('/home/winecroft...')
+#2 /home/winecroft/public_html/wp-content/plugins/wp-less/vendor/oyejorge/less.php/lessc.inc.php(147): Less_Parser->parseFile('/home/winecroft...')
+#3 /home/winecroft/public_html/wp-content/plugins/wp-less/vendor/oyejorge/less.php/lessc.inc.php(225): lessc->compileFile('/home/winecroft...')
+#4 /home/winecroft/public_html/wp-content/pl
+
+2018-01-26T11:05:06+00:00 CRITICAL Call to undefined function changeCheckoutAbility()
+
+2018-01-26T11:05:31+00:00 CRITICAL Call to undefined function changeCheckoutAbility()
+
+2018-01-31T12:41:23+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-01-31T13:24:29+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-01-31T13:57:37+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-01-31T14:57:45+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-01-31T15:57:36+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-01-31T16:57:34+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-01-31T23:35:56+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-02-01T03:25:51+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-02-01T09:33:01+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-02-01T09:57:34+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-02-01T10:16:41+00:00 CRITICAL Cannot use object of type WP_Term as array
+
+2018-02-01T10:57:38+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-02-01T13:48:05+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-02-01T16:16:21+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-02-01T20:10:14+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-02-02T10:17:40+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-02-02T12:18:56+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-02-02T13:45:02+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-02-02T15:43:54+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-02-02T18:30:23+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-02-02T20:55:42+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-02-02T21:38:53+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-02-03T01:46:22+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-02-03T07:23:36+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-02-03T09:24:56+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-02-03T10:26:28+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-02-03T11:25:38+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-02-03T11:57:43+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-02-03T13:10:13+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-02-03T16:33:44+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-02-03T16:59:15+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-02-03T17:58:29+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-02-03T18:57:54+00:00 CRITICAL Call to undefined method WP_Error::get_items()
+
+2018-02-07T08:43:51+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-07T11:58:10+00:00 CRITICAL Call to undefined method WC_Product_Subscription::get_qty()
+
+2018-02-07T11:59:07+00:00 CRITICAL Call to undefined method WC_Product_Subscription::get_quantity()
+
+2018-02-07T12:00:36+00:00 CRITICAL Call to undefined method WC_Product_Subscription::get_quantity()
+
+2018-02-07T12:00:51+00:00 CRITICAL Call to undefined method WC_Product_Subscription::get_quantity()
+
+2018-02-07T13:52:08+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-08T01:32:23+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-08T12:53:09+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-09T00:57:25+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-09T13:29:09+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-10T02:21:07+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-10T14:49:03+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-11T06:10:14+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-11T13:55:28+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-12T02:18:50+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-12T13:49:38+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-13T02:25:02+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-13T15:59:11+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-14T03:50:21+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-14T13:01:59+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-15T01:25:57+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-15T03:57:37+00:00 CRITICAL Call to a member function get() on null
+
+2018-02-15T12:53:29+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-16T01:14:02+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-16T12:52:26+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-17T05:40:21+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-17T16:17:14+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-18T02:15:59+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-18T22:33:38+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-19T03:44:45+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-19T12:52:39+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-20T03:49:12+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-20T15:19:24+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-21T02:39:32+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-21T14:48:16+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-22T03:45:33+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-22T14:57:32+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-23T06:33:40+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-23T13:09:10+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-24T05:06:10+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-24T13:03:33+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-25T05:01:56+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-25T12:52:34+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-26T05:02:07+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-26T13:01:52+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-27T07:46:36+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-02-27T12:53:57+00:00 CRITICAL Call to undefined function request_filesystem_credentials()
+
+2018-03-13T11:26:51+00:00 CRITICAL Call to undefined method WC_Subscriptions::order_contains_subscription()
+
+2018-03-13T14:23:57+00:00 CRITICAL Call to a member function get_attribute() on integer
+
+2018-03-13T14:24:22+00:00 CRITICAL Call to a member function get_attribute() on null
+
+2018-03-13T14:24:39+00:00 CRITICAL Call to undefined method WC_Order_Item_Product::get_attribute()
+
+2018-03-13T14:25:49+00:00 CRITICAL Call to a member function get_attribute() on null
+
+2018-03-13T14:27:34+00:00 CRITICAL Call to undefined method WC_Order_Item_Product::get_attribute()
+
+2018-03-13T14:28:55+00:00 CRITICAL Call to undefined method WC_Order_Item_Product::get_attributes()
+
+2018-03-13T14:30:26+00:00 CRITICAL Call to undefined method WC_Order_Item_Product::get_attributes()
+
+2018-03-13T16:09:31+00:00 CRITICAL Function name must be a string
+
+2018-03-13T16:09:36+00:00 CRITICAL Function name must be a string
+
+2018-03-14T10:59:30+00:00 CRITICAL Call to undefined function WC_Subscription()
+
+2018-03-14T11:01:54+00:00 CRITICAL Call to undefined method WP_Post::get_id()
+
+2018-03-14T11:02:13+00:00 CRITICAL Call to undefined method WP_Post::get_id()
+
+2018-03-14T11:05:57+00:00 CRITICAL Call to a member function all() on null
+
+2018-03-14T11:05:59+00:00 CRITICAL Call to a member function all() on null
+
+2018-04-03T10:08:54+00:00 CRITICAL Cannot use object of type WP_Post as array
+
+2018-04-03T16:24:14+00:00 CRITICAL Call to undefined function DateTime()
+
+2018-04-11T15:04:46+00:00 CRITICAL Using $this when not in object context
+
+2018-04-11T15:38:21+00:00 CRITICAL Call to undefined method WC_Subscription::get_price()
+
+2018-04-11T15:38:33+00:00 CRITICAL Call to undefined method WC_Order_Item_Product::get_price()
+
+2018-04-13T11:35:15+00:00 CRITICAL Call to a member function get_attribute() on integer
+
+2018-04-13T11:36:07+00:00 CRITICAL Call to undefined method WC_Order_Item_Product::get_attribute()
+
+2018-04-13T11:39:07+00:00 CRITICAL Call to a member function get_attribute() on integer
+
+2018-04-16T10:49:33+00:00 CRITICAL Call to undefined method WP_Post::get_id()
+
+2018-04-16T10:49:34+00:00 CRITICAL Call to undefined method WP_Post::get_id()
+
+2018-04-16T10:52:10+00:00 CRITICAL Call to undefined method WP_Post::get_id()
+
+2018-04-16T10:52:17+00:00 CRITICAL Call to undefined method WP_Post::get_id()
+
+2018-04-16T11:04:13+00:00 CRITICAL Call to undefined method WP_Post::get_id()
+
+2018-05-16T11:17:50+00:00 CRITICAL Call to undefined function WC_Subscriptions()
+
+2018-05-16T11:21:08+00:00 CRITICAL Call to a member function get_id() on string
+
+2018-05-16T11:22:16+00:00 CRITICAL Call to a member function get_id() on string
+
+2018-05-16T11:22:47+00:00 CRITICAL Call to a member function get_id() on string
+
+2018-05-16T11:22:52+00:00 CRITICAL Call to a member function get_id() on string
+
+2018-05-16T11:24:18+00:00 CRITICAL Call to undefined method WP_Post::get_id()
+
+2018-05-16T11:56:57+00:00 CRITICAL Uncaught exception 'Less_Exception_Chunk' with message 'ParseError: Unexpected input in wp-styles.less on line 5852, column 4
+5850| 				width:100%;
+5851| 			}
+5852| 			span:last-child; {
+5853| 				display:none;
+5854| 			}
+5855| 		}' in /home/winecroft/public_html/wp-content/plugins/wp-less/vendor/oyejorge/less.php/lib/Less/Parser.php:535
+Stack trace:
+#0 /home/winecroft/public_html/wp-content/plugins/wp-less/vendor/oyejorge/less.php/lib/Less/Parser.php(474): Less_Parser->GetRules('/home/winecroft...')
+#1 /home/winecroft/public_html/wp-content/plugins/wp-less/vendor/oyejorge/less.php/lib/Less/Parser.php(346): Less_Parser->_parse('/home/winecroft...')
+#2 /home/winecroft/public_html/wp-content/plugins/wp-less/vendor/oyejorge/less.php/lessc.inc.php(147): Less_Parser->parseFile('/home/winecroft...')
+#3 /home/winecroft/public_html/wp-content/plugins/wp-less/vendor/oyejorge/less.php/lessc.inc.php(225): lessc->compileFile('/home/winecroft...')
+#4 /home/winecroft/public_html/wp-content/plugins/wp-less/lib/Compile
+
+2018-05-17T12:03:42+00:00 CRITICAL Call to undefined function get_fueld()
+
+2018-05-17T13:50:45+00:00 CRITICAL Call to undefined method WP_Post::get_id()
+
+2018-05-17T13:51:17+00:00 CRITICAL Call to undefined method WP_Post::get_id()
+
+2018-05-17T13:53:04+00:00 CRITICAL Call to undefined method WP_Post::get_id()
+
+2018-05-17T13:54:01+00:00 CRITICAL Call to undefined method WP_Post::get_total()
+
+2018-05-17T13:54:30+00:00 CRITICAL Call to undefined method WP_Post::get_items()
+
+2018-05-17T13:54:53+00:00 CRITICAL Call to undefined method WP_Post::get_items()
+
+2018-05-17T13:55:42+00:00 CRITICAL Call to undefined method WP_Post::get_product_from_item()
+
+2018-05-17T13:55:58+00:00 CRITICAL Call to undefined method WP_Post::get_id()
+
+2018-05-17T13:56:18+00:00 CRITICAL Call to undefined method WP_Post::get_id()
+
+2018-06-12T16:59:41+00:00 CRITICAL Call to undefined method WC_Order::get_shipping_phone()
+
+2018-06-12T17:00:17+00:00 CRITICAL Call to undefined method WC_Order::shipping_phone()
+
+2018-08-07T14:30:37+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Error::get_items() in /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/seo-ultimate/modules/sds-blog/sds-blog.php:42
+Stack trace:
+#0 /Users/ryan/Documents/Localhost/winecroft/wp-includes/class-wp-hook.php(286): SU_SdsBlog->load_blog_rss()
+#1 /Users/ryan/Documents/Localhost/winecroft/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /Users/ryan/Documents/Localhost/winecroft/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#3 /Users/ryan/Documents/Localhost/winecroft/wp-cron.php(126): do_action_ref_array('su-sds-blog-loa...', Array)
+#4 {main}
+  thrown
+
+2018-08-09T11:30:21+00:00 CRITICAL Uncaught Error: Call to a member function get_code() on null in /Users/ryan/Documents/Localhost/winecroft/wp-content/themes/glugglugclub/functions.php:2702
+Stack trace:
+#0 /Users/ryan/Documents/Localhost/winecroft/wp-includes/class-wp-hook.php(288): {closure}(true)
+#1 /Users/ryan/Documents/Localhost/winecroft/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/class-wc-discounts.php(900): apply_filters('woocommerce_cou...', true, Object(WC_Coupon), Object(WC_Discounts))
+#3 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/class-wc-coupon.php(779): WC_Discounts->is_coupon_valid(Object(WC_Coupon))
+#4 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1557): WC_Coupon->is_valid()
+#5 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/legacy/class-wc-legacy-cart.php(267): WC_Cart->apply_coupon('78234rhnf2934
+
+2018-08-09T11:30:36+00:00 CRITICAL Uncaught Error: Call to a member function get_code() on null in /Users/ryan/Documents/Localhost/winecroft/wp-content/themes/glugglugclub/functions.php:2702
+Stack trace:
+#0 /Users/ryan/Documents/Localhost/winecroft/wp-includes/class-wp-hook.php(288): {closure}(true)
+#1 /Users/ryan/Documents/Localhost/winecroft/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/class-wc-discounts.php(900): apply_filters('woocommerce_cou...', true, Object(WC_Coupon), Object(WC_Discounts))
+#3 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/class-wc-coupon.php(779): WC_Discounts->is_coupon_valid(Object(WC_Coupon))
+#4 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1557): WC_Coupon->is_valid()
+#5 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/legacy/class-wc-legacy-cart.php(267): WC_Cart->apply_coupon('78234rhnf2934
+
+2018-08-09T11:30:45+00:00 CRITICAL Uncaught Error: Call to a member function get_code() on null in /Users/ryan/Documents/Localhost/winecroft/wp-content/themes/glugglugclub/functions.php:2702
+Stack trace:
+#0 /Users/ryan/Documents/Localhost/winecroft/wp-includes/class-wp-hook.php(288): {closure}(true)
+#1 /Users/ryan/Documents/Localhost/winecroft/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/class-wc-discounts.php(900): apply_filters('woocommerce_cou...', true, Object(WC_Coupon), Object(WC_Discounts))
+#3 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/class-wc-coupon.php(779): WC_Discounts->is_coupon_valid(Object(WC_Coupon))
+#4 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1557): WC_Coupon->is_valid()
+#5 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/legacy/class-wc-legacy-cart.php(267): WC_Cart->apply_coupon('78234rhnf2934
+
+2018-08-09T11:36:50+00:00 CRITICAL Uncaught Error: Call to a member function get_code() on null in /Users/ryan/Documents/Localhost/winecroft/wp-content/themes/glugglugclub/functions.php:2702
+Stack trace:
+#0 /Users/ryan/Documents/Localhost/winecroft/wp-includes/class-wp-hook.php(288): {closure}(true)
+#1 /Users/ryan/Documents/Localhost/winecroft/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/class-wc-discounts.php(900): apply_filters('woocommerce_cou...', true, Object(WC_Coupon), Object(WC_Discounts))
+#3 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/class-wc-coupon.php(779): WC_Discounts->is_coupon_valid(Object(WC_Coupon))
+#4 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1557): WC_Coupon->is_valid()
+#5 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/legacy/class-wc-legacy-cart.php(267): WC_Cart->apply_coupon('78234rhnf2934
+
+2018-08-09T11:37:51+00:00 CRITICAL Uncaught Error: Call to a member function get_code() on null in /Users/ryan/Documents/Localhost/winecroft/wp-content/themes/glugglugclub/functions.php:2702
+Stack trace:
+#0 /Users/ryan/Documents/Localhost/winecroft/wp-includes/class-wp-hook.php(288): {closure}(true)
+#1 /Users/ryan/Documents/Localhost/winecroft/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/class-wc-discounts.php(900): apply_filters('woocommerce_cou...', true, Object(WC_Coupon), Object(WC_Discounts))
+#3 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/class-wc-coupon.php(779): WC_Discounts->is_coupon_valid(Object(WC_Coupon))
+#4 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1557): WC_Coupon->is_valid()
+#5 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/legacy/class-wc-legacy-cart.php(267): WC_Cart->apply_coupon('78234rhnf2934
+
+2018-08-09T11:38:01+00:00 CRITICAL Uncaught Error: Call to a member function get_code() on null in /Users/ryan/Documents/Localhost/winecroft/wp-content/themes/glugglugclub/functions.php:2702
+Stack trace:
+#0 /Users/ryan/Documents/Localhost/winecroft/wp-includes/class-wp-hook.php(288): {closure}(true)
+#1 /Users/ryan/Documents/Localhost/winecroft/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/class-wc-discounts.php(900): apply_filters('woocommerce_cou...', true, Object(WC_Coupon), Object(WC_Discounts))
+#3 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/class-wc-coupon.php(779): WC_Discounts->is_coupon_valid(Object(WC_Coupon))
+#4 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1557): WC_Coupon->is_valid()
+#5 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/legacy/class-wc-legacy-cart.php(267): WC_Cart->apply_coupon('78234rhnf2934
+
+2018-08-09T11:38:38+00:00 CRITICAL Uncaught Error: Call to a member function get_code() on null in /Users/ryan/Documents/Localhost/winecroft/wp-content/themes/glugglugclub/functions.php:2702
+Stack trace:
+#0 /Users/ryan/Documents/Localhost/winecroft/wp-includes/class-wp-hook.php(288): {closure}(true)
+#1 /Users/ryan/Documents/Localhost/winecroft/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/class-wc-discounts.php(900): apply_filters('woocommerce_cou...', true, Object(WC_Coupon), Object(WC_Discounts))
+#3 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/class-wc-coupon.php(779): WC_Discounts->is_coupon_valid(Object(WC_Coupon))
+#4 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1557): WC_Coupon->is_valid()
+#5 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/legacy/class-wc-legacy-cart.php(267): WC_Cart->apply_coupon('78234rhnf2934
+
+2018-08-09T11:38:51+00:00 CRITICAL Uncaught Error: Call to a member function get_code() on null in /Users/ryan/Documents/Localhost/winecroft/wp-content/themes/glugglugclub/functions.php:2702
+Stack trace:
+#0 /Users/ryan/Documents/Localhost/winecroft/wp-includes/class-wp-hook.php(288): {closure}(true)
+#1 /Users/ryan/Documents/Localhost/winecroft/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/class-wc-discounts.php(900): apply_filters('woocommerce_cou...', true, Object(WC_Coupon), Object(WC_Discounts))
+#3 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/class-wc-coupon.php(779): WC_Discounts->is_coupon_valid(Object(WC_Coupon))
+#4 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1557): WC_Coupon->is_valid()
+#5 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/legacy/class-wc-legacy-cart.php(267): WC_Cart->apply_coupon('78234rhnf2934
+
+2018-08-09T11:39:09+00:00 CRITICAL Uncaught Error: Call to a member function get_code() on null in /Users/ryan/Documents/Localhost/winecroft/wp-content/themes/glugglugclub/functions.php:2704
+Stack trace:
+#0 /Users/ryan/Documents/Localhost/winecroft/wp-includes/class-wp-hook.php(288): {closure}(true)
+#1 /Users/ryan/Documents/Localhost/winecroft/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/class-wc-discounts.php(900): apply_filters('woocommerce_cou...', true, Object(WC_Coupon), Object(WC_Discounts))
+#3 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/class-wc-coupon.php(779): WC_Discounts->is_coupon_valid(Object(WC_Coupon))
+#4 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1557): WC_Coupon->is_valid()
+#5 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/legacy/class-wc-legacy-cart.php(267): WC_Cart->apply_coupon('78234rhnf2934
+
+2018-08-09T11:39:21+00:00 CRITICAL Uncaught Error: Call to a member function get_code() on null in /Users/ryan/Documents/Localhost/winecroft/wp-content/themes/glugglugclub/functions.php:2704
+Stack trace:
+#0 /Users/ryan/Documents/Localhost/winecroft/wp-includes/class-wp-hook.php(288): {closure}(true)
+#1 /Users/ryan/Documents/Localhost/winecroft/wp-includes/plugin.php(203): WP_Hook->apply_filters(true, Array)
+#2 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/class-wc-discounts.php(900): apply_filters('woocommerce_cou...', true, Object(WC_Coupon), Object(WC_Discounts))
+#3 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/class-wc-coupon.php(779): WC_Discounts->is_coupon_valid(Object(WC_Coupon))
+#4 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1557): WC_Coupon->is_valid()
+#5 /Users/ryan/Documents/Localhost/winecroft/wp-content/plugins/woocommerce/includes/legacy/class-wc-legacy-cart.php(267): WC_Cart->apply_coupon('78234rhnf2934
+
+2018-09-13T10:30:26+00:00 CRITICAL Uncaught Error: Call to undefined function get_next_payment_date() in /Users/ryan/Localhost/Creative Steam/winecroft/wp-content/themes/glugglugclub/woocommerce/myaccount/my-subscriptions.php:52
+Stack trace:
+#0 /Users/ryan/Localhost/Creative Steam/winecroft/wp-content/plugins/woocommerce/includes/wc-core-functions.php(209): include()
+#1 /Users/ryan/Localhost/Creative Steam/winecroft/wp-content/plugins/woocommerce-subscriptions-master/woocommerce-subscriptions.php(461): wc_get_template('myaccount/my-su...', Array, '', '/Users/ryan/Loc...')
+#2 /Users/ryan/Localhost/Creative Steam/winecroft/wp-content/plugins/woocommerce-subscriptions-master/templates/myaccount/subscriptions.php(14): WC_Subscriptions::get_my_subscriptions_template(1)
+#3 /Users/ryan/Localhost/Creative Steam/winecroft/wp-content/plugins/woocommerce/includes/wc-core-functions.php(209): include('/Users/ryan/Loc...')
+#4 /Users/ryan/Localhost/Creative Steam/winecroft/wp-content/plugins/woocommerce-subscriptions-master/includes/class-wcs-query.php(172):
+

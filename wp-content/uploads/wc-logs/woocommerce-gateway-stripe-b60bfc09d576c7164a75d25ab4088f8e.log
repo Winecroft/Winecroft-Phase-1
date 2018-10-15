@@ -1,0 +1,1108 @@
+01-03-2018 @ 14:37:58 - customers request: Array
+(
+    [email] => russellf@creativesteam.co.uk
+    [description] => Russ Forster
+    [metadata] => Array
+        (
+        )
+
+)
+
+01-03-2018 @ 14:37:58 - customers/cus_C4M5PLn2ywCC7k/sources request: Array
+(
+    [source] => tok_1BgDNOC1ybqzhkfnsEyoAVpA
+)
+
+01-03-2018 @ 14:38:00 - customers/cus_C4M5PLn2ywCC7k request: Array
+(
+    [default_source] => card_1BgDNOC1ybqzhkfnGYYILbwi
+)
+
+01-03-2018 @ 14:38:00 - Info: Begin processing payment for order 29 for the amount of 76.98
+01-03-2018 @ 14:38:00 - charges request: Array
+(
+    [currency] => gbp
+    [amount] => 7698
+    [description] => Glug Glug Club - Order 29
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [Customer Name] => Russ Forster
+            [Customer Email] => russellf@creativesteam.co.uk
+        )
+
+    [customer] => cus_C4M5PLn2ywCC7k
+    [source] => card_1BgDNOC1ybqzhkfnGYYILbwi
+)
+
+01-03-2018 @ 14:38:02 - Processing response: stdClass Object
+(
+    [id] => ch_1BgDNVC1ybqzhkfnDEB1xsK5
+    [object] => charge
+    [amount] => 7698
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1BgDNVC1ybqzhkfnRhLNUfSl
+            [object] => balance_transaction
+            [amount] => 7698
+            [available_on] => 1515542400
+            [created] => 1514990281
+            [currency] => gbp
+            [description] => Glug Glug Club - Order 29
+            [fee] => 243
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 243
+                            [application] => 
+                            [currency] => gbp
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 7455
+            [source] => ch_1BgDNVC1ybqzhkfnDEB1xsK5
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_1BgDNVC1ybqzhkfnDEB1xsK5
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1514990281
+    [currency] => gbp
+    [customer] => cus_C4M5PLn2ywCC7k
+    [description] => Glug Glug Club - Order 29
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [Customer Name] => Russ Forster
+            [Customer Email] => russellf@creativesteam.co.uk
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1BgDNVC1ybqzhkfnDEB1xsK5/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_1BgDNOC1ybqzhkfnGYYILbwi
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => cus_C4M5PLn2ywCC7k
+            [cvc_check] => 
+            [dynamic_last4] => 
+            [exp_month] => 11
+            [exp_year] => 2019
+            [fingerprint] => NyL5b1QhrLvVPynP
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => russellf@creativesteam.co.uk
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_group] => 
+)
+
+01-03-2018 @ 14:38:02 - Success: Stripe charge complete (Charge ID: ch_1BgDNVC1ybqzhkfnDEB1xsK5)
+01-03-2018 @ 14:40:24 - customers/cus_C4M5PLn2ywCC7k/sources request: Array
+(
+    [limit] => 100
+)
+
+01-03-2018 @ 14:44:17 - Info: Begin processing subscription payment for order 34 for the amount of 110.98
+01-03-2018 @ 14:44:17 - charges request: Array
+(
+    [currency] => gbp
+    [amount] => 11098
+    [description] => Glug Glug Club - Order 34
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [payment_type] => recurring
+            [site_url] => http://88.208.249.241/~glugglugclub
+        )
+
+    [customer] => cus_C4M5PLn2ywCC7k
+    [source] => card_1BgDNOC1ybqzhkfnGYYILbwi
+)
+
+01-03-2018 @ 14:44:19 - Processing response: stdClass Object
+(
+    [id] => ch_1BgDTaC1ybqzhkfnx2aZ3NsE
+    [object] => charge
+    [amount] => 11098
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1BgDTaC1ybqzhkfnoVhXtqvZ
+            [object] => balance_transaction
+            [amount] => 11098
+            [available_on] => 1515542400
+            [created] => 1514990658
+            [currency] => gbp
+            [description] => Glug Glug Club - Order 34
+            [fee] => 342
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 342
+                            [application] => 
+                            [currency] => gbp
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 10756
+            [source] => ch_1BgDTaC1ybqzhkfnx2aZ3NsE
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_1BgDTaC1ybqzhkfnx2aZ3NsE
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1514990658
+    [currency] => gbp
+    [customer] => cus_C4M5PLn2ywCC7k
+    [description] => Glug Glug Club - Order 34
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [payment_type] => recurring
+            [site_url] => http://88.208.249.241/~glugglugclub
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1BgDTaC1ybqzhkfnx2aZ3NsE/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_1BgDNOC1ybqzhkfnGYYILbwi
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => cus_C4M5PLn2ywCC7k
+            [cvc_check] => 
+            [dynamic_last4] => 
+            [exp_month] => 11
+            [exp_year] => 2019
+            [fingerprint] => NyL5b1QhrLvVPynP
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => russellf@creativesteam.co.uk
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_group] => 
+)
+
+01-03-2018 @ 14:44:19 - Success: Stripe charge complete (Charge ID: ch_1BgDTaC1ybqzhkfnx2aZ3NsE)
+01-03-2018 @ 14:53:40 - Info: Begin processing subscription payment for order 36 for the amount of 110.98
+01-03-2018 @ 14:53:40 - charges request: Array
+(
+    [currency] => gbp
+    [amount] => 11098
+    [description] => Glug Glug Club - Order 36
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [payment_type] => recurring
+            [site_url] => http://88.208.249.241/~glugglugclub
+        )
+
+    [customer] => cus_C4M5PLn2ywCC7k
+    [source] => card_1BgDNOC1ybqzhkfnGYYILbwi
+)
+
+01-03-2018 @ 14:53:41 - Processing response: stdClass Object
+(
+    [id] => ch_1BgDceC1ybqzhkfnZaYSt9qD
+    [object] => charge
+    [amount] => 11098
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1BgDceC1ybqzhkfnB76ylNZH
+            [object] => balance_transaction
+            [amount] => 11098
+            [available_on] => 1515542400
+            [created] => 1514991220
+            [currency] => gbp
+            [description] => Glug Glug Club - Order 36
+            [fee] => 342
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 342
+                            [application] => 
+                            [currency] => gbp
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 10756
+            [source] => ch_1BgDceC1ybqzhkfnZaYSt9qD
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_1BgDceC1ybqzhkfnZaYSt9qD
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1514991220
+    [currency] => gbp
+    [customer] => cus_C4M5PLn2ywCC7k
+    [description] => Glug Glug Club - Order 36
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [payment_type] => recurring
+            [site_url] => http://88.208.249.241/~glugglugclub
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1BgDceC1ybqzhkfnZaYSt9qD/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_1BgDNOC1ybqzhkfnGYYILbwi
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => cus_C4M5PLn2ywCC7k
+            [cvc_check] => 
+            [dynamic_last4] => 
+            [exp_month] => 11
+            [exp_year] => 2019
+            [fingerprint] => NyL5b1QhrLvVPynP
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => russellf@creativesteam.co.uk
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_group] => 
+)
+
+01-03-2018 @ 14:53:41 - Success: Stripe charge complete (Charge ID: ch_1BgDceC1ybqzhkfnZaYSt9qD)
+01-03-2018 @ 15:57:01 - Info: Begin processing subscription payment for order 39 for the amount of 66.98
+01-03-2018 @ 15:57:01 - charges request: Array
+(
+    [currency] => gbp
+    [amount] => 6698
+    [description] => Glug Glug Club - Order 39
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [payment_type] => recurring
+            [site_url] => http://88.208.249.241/~glugglugclub
+        )
+
+    [customer] => cus_C4M5PLn2ywCC7k
+    [source] => card_1BgDNOC1ybqzhkfnGYYILbwi
+)
+
+01-03-2018 @ 15:57:03 - Processing response: stdClass Object
+(
+    [id] => ch_1BgEbyC1ybqzhkfnClSMhkAa
+    [object] => charge
+    [amount] => 6698
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1BgEbyC1ybqzhkfnJV0INJJv
+            [object] => balance_transaction
+            [amount] => 6698
+            [available_on] => 1515542400
+            [created] => 1514995022
+            [currency] => gbp
+            [description] => Glug Glug Club - Order 39
+            [fee] => 214
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 214
+                            [application] => 
+                            [currency] => gbp
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 6484
+            [source] => ch_1BgEbyC1ybqzhkfnClSMhkAa
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_1BgEbyC1ybqzhkfnClSMhkAa
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1514995022
+    [currency] => gbp
+    [customer] => cus_C4M5PLn2ywCC7k
+    [description] => Glug Glug Club - Order 39
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [payment_type] => recurring
+            [site_url] => http://88.208.249.241/~glugglugclub
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1BgEbyC1ybqzhkfnClSMhkAa/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_1BgDNOC1ybqzhkfnGYYILbwi
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => cus_C4M5PLn2ywCC7k
+            [cvc_check] => 
+            [dynamic_last4] => 
+            [exp_month] => 11
+            [exp_year] => 2019
+            [fingerprint] => NyL5b1QhrLvVPynP
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => russellf@creativesteam.co.uk
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_group] => 
+)
+
+01-03-2018 @ 15:57:04 - Success: Stripe charge complete (Charge ID: ch_1BgEbyC1ybqzhkfnClSMhkAa)
+01-03-2018 @ 16:04:59 - Info: Begin processing subscription payment for order 41 for the amount of 66.98
+01-03-2018 @ 16:04:59 - charges request: Array
+(
+    [currency] => gbp
+    [amount] => 6698
+    [description] => Glug Glug Club - Order 41
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [payment_type] => recurring
+            [site_url] => http://88.208.249.241/~glugglugclub
+        )
+
+    [customer] => cus_C4M5PLn2ywCC7k
+    [source] => card_1BgDNOC1ybqzhkfnGYYILbwi
+)
+
+01-03-2018 @ 16:05:00 - Processing response: stdClass Object
+(
+    [id] => ch_1BgEjgC1ybqzhkfnCpVfjsLV
+    [object] => charge
+    [amount] => 6698
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1BgEjgC1ybqzhkfnN3X5dSwW
+            [object] => balance_transaction
+            [amount] => 6698
+            [available_on] => 1515542400
+            [created] => 1514995500
+            [currency] => gbp
+            [description] => Glug Glug Club - Order 41
+            [fee] => 214
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 214
+                            [application] => 
+                            [currency] => gbp
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 6484
+            [source] => ch_1BgEjgC1ybqzhkfnCpVfjsLV
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_1BgEjgC1ybqzhkfnCpVfjsLV
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1514995500
+    [currency] => gbp
+    [customer] => cus_C4M5PLn2ywCC7k
+    [description] => Glug Glug Club - Order 41
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [payment_type] => recurring
+            [site_url] => http://88.208.249.241/~glugglugclub
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1BgEjgC1ybqzhkfnCpVfjsLV/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_1BgDNOC1ybqzhkfnGYYILbwi
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => cus_C4M5PLn2ywCC7k
+            [cvc_check] => 
+            [dynamic_last4] => 
+            [exp_month] => 11
+            [exp_year] => 2019
+            [fingerprint] => NyL5b1QhrLvVPynP
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => russellf@creativesteam.co.uk
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_group] => 
+)
+
+01-03-2018 @ 16:05:02 - Success: Stripe charge complete (Charge ID: ch_1BgEjgC1ybqzhkfnCpVfjsLV)
+01-03-2018 @ 16:18:47 - Info: Begin processing subscription payment for order 43 for the amount of 158.98
+01-03-2018 @ 16:18:47 - charges request: Array
+(
+    [currency] => gbp
+    [amount] => 15898
+    [description] => Glug Glug Club - Order 43
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [payment_type] => recurring
+            [site_url] => http://88.208.249.241/~glugglugclub
+        )
+
+    [customer] => cus_C4M5PLn2ywCC7k
+    [source] => card_1BgDNOC1ybqzhkfnGYYILbwi
+)
+
+01-03-2018 @ 16:18:49 - Processing response: stdClass Object
+(
+    [id] => ch_1BgEx2C1ybqzhkfnqS2ubDhN
+    [object] => charge
+    [amount] => 15898
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1BgEx3C1ybqzhkfniy3wWbl7
+            [object] => balance_transaction
+            [amount] => 15898
+            [available_on] => 1515542400
+            [created] => 1514996328
+            [currency] => gbp
+            [description] => Glug Glug Club - Order 43
+            [fee] => 481
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 481
+                            [application] => 
+                            [currency] => gbp
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 15417
+            [source] => ch_1BgEx2C1ybqzhkfnqS2ubDhN
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_1BgEx2C1ybqzhkfnqS2ubDhN
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1514996328
+    [currency] => gbp
+    [customer] => cus_C4M5PLn2ywCC7k
+    [description] => Glug Glug Club - Order 43
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [payment_type] => recurring
+            [site_url] => http://88.208.249.241/~glugglugclub
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1BgEx2C1ybqzhkfnqS2ubDhN/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_1BgDNOC1ybqzhkfnGYYILbwi
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => cus_C4M5PLn2ywCC7k
+            [cvc_check] => 
+            [dynamic_last4] => 
+            [exp_month] => 11
+            [exp_year] => 2019
+            [fingerprint] => NyL5b1QhrLvVPynP
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => russellf@creativesteam.co.uk
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_group] => 
+)
+
+01-03-2018 @ 16:18:50 - Success: Stripe charge complete (Charge ID: ch_1BgEx2C1ybqzhkfnqS2ubDhN)
+01-05-2018 @ 12:46:38 - Info: Begin processing subscription payment for order 149 for the amount of 96.98
+01-05-2018 @ 12:46:38 - charges request: Array
+(
+    [currency] => gbp
+    [amount] => 9698
+    [description] => Glug Glug Club - Order 149
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [payment_type] => recurring
+            [site_url] => http://88.208.249.241/~glugglugclub
+        )
+
+    [customer] => cus_C4M5PLn2ywCC7k
+    [source] => card_1BgDNOC1ybqzhkfnGYYILbwi
+)
+
+01-05-2018 @ 12:46:39 - Processing response: stdClass Object
+(
+    [id] => ch_1BguapC1ybqzhkfnYwf7dzk4
+    [object] => charge
+    [amount] => 9698
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_1BguapC1ybqzhkfn5qzeljwN
+            [object] => balance_transaction
+            [amount] => 9698
+            [available_on] => 1515715200
+            [created] => 1515156399
+            [currency] => gbp
+            [description] => Glug Glug Club - Order 149
+            [fee] => 301
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 301
+                            [application] => 
+                            [currency] => gbp
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 9397
+            [source] => ch_1BguapC1ybqzhkfnYwf7dzk4
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_1BguapC1ybqzhkfnYwf7dzk4
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1515156399
+    [currency] => gbp
+    [customer] => cus_C4M5PLn2ywCC7k
+    [description] => Glug Glug Club - Order 149
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [payment_type] => recurring
+            [site_url] => http://88.208.249.241/~glugglugclub
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1BguapC1ybqzhkfnYwf7dzk4/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_1BgDNOC1ybqzhkfnGYYILbwi
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => cus_C4M5PLn2ywCC7k
+            [cvc_check] => 
+            [dynamic_last4] => 
+            [exp_month] => 11
+            [exp_year] => 2019
+            [fingerprint] => NyL5b1QhrLvVPynP
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => russellf@creativesteam.co.uk
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_group] => 
+)
+
+01-05-2018 @ 12:46:41 - Success: Stripe charge complete (Charge ID: ch_1BguapC1ybqzhkfnYwf7dzk4)
+01-05-2018 @ 17:25:29 - customers/cus_C4M5PLn2ywCC7k/sources request: Array
+(
+    [limit] => 100
+)
+

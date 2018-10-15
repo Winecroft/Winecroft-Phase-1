@@ -1,0 +1,327 @@
+2018-01-04T10:02:25+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(/home/glugglugclub/public_html/wp-content/uploads/wp-less): failed to open dir: No such file or directory in /home/glugglugclub/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php:47
+Stack trace:
+#0 /home/glugglugclub/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php(47): RecursiveDirectoryIterator->__construct('/home/glugglugc...')
+#1 /home/glugglugclub/public_html/wp-content/plugins/wp-less/lib/Garbagecollector.class.php(28): WPLessGarbagecollector->getOutdatedFiles(432000)
+#2 /home/glugglugclub/public_html/wp-includes/class-wp-hook.php(286): WPLessGarbagecollector->clean()
+#3 /home/glugglugclub/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home/glugglugclub/public_html/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#5 /home/glugglugclub/public_html/wp-cron.php(126): do_action_ref_array('wp-less-garbage...', Array)
+#6 {main}
+  thrown
+
+2018-01-05T12:00:52+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Subscription::next_payment() in /home/glugglugclub/public_html/wp-content/themes/glugglugclub/functions.php:722
+Stack trace:
+#0 /home/glugglugclub/public_html/wp-content/themes/glugglugclub/woocommerce/myaccount/dashboard.php(173): getUserActiveSubscriptions(2)
+#1 /home/glugglugclub/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(209): include('/home/glugglugc...')
+#2 /home/glugglugclub/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2338): wc_get_template('myaccount/dashb...', Array)
+#3 /home/glugglugclub/public_html/wp-includes/class-wp-hook.php(286): woocommerce_account_content('')
+#4 /home/glugglugclub/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /home/glugglugclub/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#6 /home/glugglugclub/public_html/wp-content/plugins/woocommerce/templates/myaccount/my-account.php(37): do_action('woocommerce_acc...')
+#7
+
+2018-01-05T12:00:54+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Subscription::next_payment() in /home/glugglugclub/public_html/wp-content/themes/glugglugclub/functions.php:722
+Stack trace:
+#0 /home/glugglugclub/public_html/wp-content/themes/glugglugclub/woocommerce/myaccount/dashboard.php(173): getUserActiveSubscriptions(2)
+#1 /home/glugglugclub/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(209): include('/home/glugglugc...')
+#2 /home/glugglugclub/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2338): wc_get_template('myaccount/dashb...', Array)
+#3 /home/glugglugclub/public_html/wp-includes/class-wp-hook.php(286): woocommerce_account_content('')
+#4 /home/glugglugclub/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /home/glugglugclub/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#6 /home/glugglugclub/public_html/wp-content/plugins/woocommerce/templates/myaccount/my-account.php(37): do_action('woocommerce_acc...')
+#7
+
+2018-01-05T12:09:47+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Subscription as array in /home/glugglugclub/public_html/wp-content/themes/glugglugclub/woocommerce/myaccount/dashboard.php:190
+Stack trace:
+#0 /home/glugglugclub/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(209): include()
+#1 /home/glugglugclub/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2338): wc_get_template('myaccount/dashb...', Array)
+#2 /home/glugglugclub/public_html/wp-includes/class-wp-hook.php(286): woocommerce_account_content('')
+#3 /home/glugglugclub/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home/glugglugclub/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home/glugglugclub/public_html/wp-content/plugins/woocommerce/templates/myaccount/my-account.php(37): do_action('woocommerce_acc...')
+#6 /home/glugglugclub/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(209): include('/home/glugglugc...')
+#7 /home/gl
+
+2018-01-05T12:16:55+00:00 CRITICAL Uncaught Exception: DateTime::__construct(): Failed to parse time string (Y-m-d) at position 1 (-): Unexpected character in /home/glugglugclub/public_html/wp-content/themes/glugglugclub/woocommerce/myaccount/dashboard.php:196
+Stack trace:
+#0 /home/glugglugclub/public_html/wp-content/themes/glugglugclub/woocommerce/myaccount/dashboard.php(196): DateTime->__construct('Y-m-d')
+#1 /home/glugglugclub/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(209): include('/home/glugglugc...')
+#2 /home/glugglugclub/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2338): wc_get_template('myaccount/dashb...', Array)
+#3 /home/glugglugclub/public_html/wp-includes/class-wp-hook.php(286): woocommerce_account_content('')
+#4 /home/glugglugclub/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /home/glugglugclub/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#6 /home/glugglugclub/public_html/wp-content/plugins/woocommerce/tem
+
+2018-01-05T12:19:11+00:00 CRITICAL Uncaught Error: Call to undefined function str_to_date() in /home/glugglugclub/public_html/wp-content/themes/glugglugclub/woocommerce/myaccount/dashboard.php:195
+Stack trace:
+#0 /home/glugglugclub/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(209): include()
+#1 /home/glugglugclub/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2338): wc_get_template('myaccount/dashb...', Array)
+#2 /home/glugglugclub/public_html/wp-includes/class-wp-hook.php(286): woocommerce_account_content('')
+#3 /home/glugglugclub/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home/glugglugclub/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home/glugglugclub/public_html/wp-content/plugins/woocommerce/templates/myaccount/my-account.php(37): do_action('woocommerce_acc...')
+#6 /home/glugglugclub/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(209): include('/home/glugglugc...')
+#7 /home/glugglugclub
+
+2018-01-05T12:19:13+00:00 CRITICAL Uncaught Error: Call to undefined function str_to_date() in /home/glugglugclub/public_html/wp-content/themes/glugglugclub/woocommerce/myaccount/dashboard.php:195
+Stack trace:
+#0 /home/glugglugclub/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(209): include()
+#1 /home/glugglugclub/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2338): wc_get_template('myaccount/dashb...', Array)
+#2 /home/glugglugclub/public_html/wp-includes/class-wp-hook.php(286): woocommerce_account_content('')
+#3 /home/glugglugclub/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home/glugglugclub/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home/glugglugclub/public_html/wp-content/plugins/woocommerce/templates/myaccount/my-account.php(37): do_action('woocommerce_acc...')
+#6 /home/glugglugclub/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(209): include('/home/glugglugc...')
+#7 /home/glugglugclub
+
+2018-01-05T12:19:37+00:00 CRITICAL Uncaught Error: Call to undefined function str_to_time() in /home/glugglugclub/public_html/wp-content/themes/glugglugclub/woocommerce/myaccount/dashboard.php:195
+Stack trace:
+#0 /home/glugglugclub/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(209): include()
+#1 /home/glugglugclub/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2338): wc_get_template('myaccount/dashb...', Array)
+#2 /home/glugglugclub/public_html/wp-includes/class-wp-hook.php(286): woocommerce_account_content('')
+#3 /home/glugglugclub/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /home/glugglugclub/public_html/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /home/glugglugclub/public_html/wp-content/plugins/woocommerce/templates/myaccount/my-account.php(37): do_action('woocommerce_acc...')
+#6 /home/glugglugclub/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(209): include('/home/glugglugc...')
+#7 /home/glugglugclub
+
+2018-01-05T17:49:10+00:00 CRITICAL Uncaught Error: Call to undefined function the_sube_field() in /home/glugglugclub/public_html/wp-content/themes/glugglugclub/includes/registration/step2.php:48
+Stack trace:
+#0 /home/glugglugclub/public_html/wp-content/themes/glugglugclub/step-2.php(6): include()
+#1 /home/glugglugclub/public_html/wp-includes/template-loader.php(74): include('/home/glugglugc...')
+#2 /home/glugglugclub/public_html/wp-blog-header.php(19): require_once('/home/glugglugc...')
+#3 /home/glugglugclub/public_html/index.php(17): require('/home/glugglugc...')
+#4 {main}
+  thrown
+
+2018-01-10T13:26:06+00:00 CRITICAL Uncaught exception 'Less_Exception_Compiler' with message 'variable @producttitle is undefined in file C:/wamp/www/glugglugclub/wp-content/themes/glugglugclub/includes/css/wp-styles.less in wp-styles.less on line 1667, column 10
+1665| 			font-size:20px;
+1666| 			line-height:22px;
+1667| 			color:@producttitle;
+1668| 			margin:0 auto;
+1669| 			display:block;
+1670| 			width:100%;' in C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lib\Less\Tree\Variable.php:49
+Stack trace:
+#0 C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lib\Less\Tree\Expression.php(52): Less_Tree_Variable->compile(Object(Less_Environment))
+#1 C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lib\Less\Tree\Value.php(27): Less_Tree_Expression->compile(Object(Less_Environment))
+#2 C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lib\Less\Tree\Rule.php(75): Less_Tree_Value->compile(Object(Less_Environment))
+#3 C:\wamp\www\glugglu
+
+2018-01-10T17:10:20+00:00 CRITICAL Uncaught exception 'Less_Exception_Chunk' with message 'ParseError: Unexpected input in wp-styles.less on line 21, column 15
+19| }
+20| 
+21| .transistion; {
+22| 	-webkit-transition: all 0.2s ease-in-out;
+23| 	-moz-transition: all 0.2s ease-in-out;
+24| 	-ms-transition: all 0.2s ease-in-out;' in C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lib\Less\Parser.php:535
+Stack trace:
+#0 C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lib\Less\Parser.php(474): Less_Parser->GetRules('C:/wamp/www/glu...')
+#1 C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lib\Less\Parser.php(346): Less_Parser->_parse('C:/wamp/www/glu...')
+#2 C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lessc.inc.php(147): Less_Parser->parseFile('C:\\wamp\\www\\glu...')
+#3 C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lessc.inc.php(225): lessc->compileFile('C:\\wamp\\www\\glu...')
+#4 C:\wamp\www\glugg
+
+2018-01-10T17:13:11+00:00 CRITICAL Uncaught exception 'Less_Exception_Chunk' with message 'ParseError: Unexpected input in wp-styles.less on line 29, column 12
+27| }
+28| 
+29| .gill_reg; {
+30| 	font-family:'Gill Sans';
+31| 	font-weight:400;
+32| }' in C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lib\Less\Parser.php:535
+Stack trace:
+#0 C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lib\Less\Parser.php(474): Less_Parser->GetRules('C:/wamp/www/glu...')
+#1 C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lib\Less\Parser.php(346): Less_Parser->_parse('C:/wamp/www/glu...')
+#2 C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lessc.inc.php(147): Less_Parser->parseFile('C:\\wamp\\www\\glu...')
+#3 C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lessc.inc.php(225): lessc->compileFile('C:\\wamp\\www\\glu...')
+#4 C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\lib\Compiler.class.php(75): lessc->cachedCom
+
+2018-01-10T17:44:10+00:00 CRITICAL Uncaught exception 'Less_Exception_Compiler' with message '.proxima_semi is undefined in C:/wamp/www/glugglugclub/wp-content/themes/glugglugclub/includes/css/wp-styles.less' in C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lib\Less\Tree\Mixin\Call.php:148
+Stack trace:
+#0 C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lib\Less\Tree\Ruleset.php(147): Less_Tree_Mixin_Call->compile(Object(Less_Environment))
+#1 C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lib\Less\Tree\Ruleset.php(88): Less_Tree_Ruleset->EvalMixinCalls(Object(Less_Tree_Ruleset), Object(Less_Environment), 4)
+#2 C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lib\Less\Tree\Ruleset.php(94): Less_Tree_Ruleset->compile(Object(Less_Environment))
+#3 C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lib\Less\Tree\Ruleset.php(94): Less_Tree_Ruleset->compile(Object(Less_Environment))
+#4 C:\wamp\www\glugglugclub
+
+2018-01-10T17:53:37+00:00 CRITICAL Call to undefined function archive_description()
+
+2018-01-11T11:11:18+00:00 CRITICAL Uncaught exception 'Less_Exception_Chunk' with message 'ParseError: Unexpected input in wp-styles.less on line 1869, column 3
+1867| 		}
+1868| 
+1869| 		.left_holder {
+1870| 			float:left;
+1871| 			width:50%:
+1872| 		}' in C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lib\Less\Parser.php:535
+Stack trace:
+#0 C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lib\Less\Parser.php(474): Less_Parser->GetRules('C:/wamp/www/glu...')
+#1 C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lib\Less\Parser.php(346): Less_Parser->_parse('C:/wamp/www/glu...')
+#2 C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lessc.inc.php(147): Less_Parser->parseFile('C:\\wamp\\www\\glu...')
+#3 C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lessc.inc.php(225): lessc->compileFile('C:\\wamp\\www\\glu...')
+#4 C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\lib\Compiler.class.php(75): lessc->cac
+
+2018-01-11T11:38:22+00:00 CRITICAL Call to undefined function var_dumo()
+
+2018-01-11T11:39:24+00:00 CRITICAL Cannot access protected property WC_Order_Item_Product::$id
+
+2018-01-11T11:50:32+00:00 CRITICAL Cannot access protected property WC_Order_Item_Product::$data
+
+2018-01-11T14:06:43+00:00 CRITICAL Call to a member function get_items() on a non-object
+
+2018-01-11T14:08:08+00:00 CRITICAL Call to a member function get_items() on a non-object
+
+2018-01-11T14:09:00+00:00 CRITICAL Call to a member function get_items() on a non-object
+
+2018-01-11T14:09:39+00:00 CRITICAL Call to a member function get_items() on a non-object
+
+2018-01-11T14:18:57+00:00 CRITICAL Call to undefined method WC_Order_Item_Product::add_to_cart_url()
+
+2018-01-11T14:23:31+00:00 CRITICAL Call to a member function get_name() on a non-object
+
+2018-01-11T15:18:06+00:00 CRITICAL Call to undefined method WC_Subscription::calulate_taxes()
+
+2018-01-11T15:39:30+00:00 CRITICAL Call to undefined function WC_Order()
+
+2018-01-11T15:44:53+00:00 CRITICAL Cannot instantiate abstract class WC_Abstract_Order
+
+2018-01-11T15:45:22+00:00 CRITICAL Call to undefined function WC_Abstract_Order()
+
+2018-01-11T15:46:57+00:00 CRITICAL Call to undefined function WC_Abstract_Order()
+
+2018-01-11T15:47:19+00:00 CRITICAL Cannot instantiate abstract class WC_Abstract_Order
+
+2018-01-11T15:54:50+00:00 CRITICAL Cannot instantiate abstract class WC_Abstract_Order
+
+2018-01-11T16:19:53+00:00 CRITICAL Call to a member function get_price() on a non-object
+
+2018-01-11T16:23:28+00:00 CRITICAL Call to a member function get_price() on a non-object
+
+2018-01-11T16:30:06+00:00 CRITICAL Call to undefined method WC_Order::set_totals()
+
+2018-01-11T16:40:17+00:00 CRITICAL Call to undefined method WC_Subscription::wc_delete_order_item()
+
+2018-01-11T16:44:32+00:00 CRITICAL Call to undefined method WC_Subscription::remove_order_item()
+
+2018-01-11T16:46:21+00:00 CRITICAL Call to undefined method WC_Subscription::remove_order_item()
+
+2018-01-11T16:46:48+00:00 CRITICAL Call to undefined method WC_Order::remove_order_item()
+
+2018-01-11T16:49:20+00:00 CRITICAL Call to undefined method WC_Order::set_totals()
+
+2018-01-11T16:56:13+00:00 CRITICAL Call to undefined method WC_Order::set_totals()
+
+2018-01-11T16:56:24+00:00 CRITICAL Call to undefined method WC_Order::set_totals()
+
+2018-01-11T16:57:13+00:00 CRITICAL Call to undefined method WC_Order::set_totals()
+
+2018-01-11T16:57:18+00:00 CRITICAL Call to undefined method WC_Order::set_totals()
+
+2018-01-11T16:57:22+00:00 CRITICAL Call to undefined method WC_Order::set_totals()
+
+2018-01-11T16:57:27+00:00 CRITICAL Call to undefined method WC_Order::set_totals()
+
+2018-01-11T16:57:32+00:00 CRITICAL Call to undefined method WC_Order::set_totals()
+
+2018-01-11T16:57:36+00:00 CRITICAL Call to undefined method WC_Order::set_totals()
+
+2018-01-11T16:57:41+00:00 CRITICAL Call to undefined method WC_Order::set_totals()
+
+2018-01-11T16:57:45+00:00 CRITICAL Call to undefined method WC_Order::set_totals()
+
+2018-01-11T16:57:49+00:00 CRITICAL Call to undefined method WC_Order::set_totals()
+
+2018-01-11T17:01:35+00:00 CRITICAL Call to undefined method WC_Order::set_totals()
+
+2018-01-11T17:03:29+00:00 CRITICAL Call to undefined method WC_Order::set_totals()
+
+2018-01-11T17:18:28+00:00 CRITICAL Call to a member function save() on a non-object
+
+2018-01-11T17:18:52+00:00 CRITICAL Call to a member function save() on a non-object
+
+2018-01-11T17:19:21+00:00 CRITICAL Call to a member function save() on a non-object
+
+2018-01-11T17:22:06+00:00 CRITICAL Call to a member function get_price() on a non-object
+
+2018-01-11T17:22:36+00:00 CRITICAL Call to a member function get_price() on a non-object
+
+2018-01-11T17:23:09+00:00 CRITICAL Call to a member function get_price() on a non-object
+
+2018-01-15T10:00:20+00:00 CRITICAL Call to a member function calculate_totals() on a non-object
+
+2018-01-15T10:22:54+00:00 CRITICAL Call to a member function get_price() on a non-object
+
+2018-01-15T10:24:20+00:00 CRITICAL Call to a member function get_price() on a non-object
+
+2018-01-15T10:25:10+00:00 CRITICAL Call to a member function get_price() on a non-object
+
+2018-01-15T10:25:17+00:00 CRITICAL Call to a member function get_price() on a non-object
+
+2018-01-15T10:31:01+00:00 CRITICAL Call to a member function calculate_totals() on a non-object
+
+2018-01-15T12:31:12+00:00 CRITICAL Uncaught exception 'Less_Exception_Compiler' with message '.gill_semihold is undefined in C:/wamp/www/glugglugclub/wp-content/themes/glugglugclub/includes/css/wp-styles.less' in C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lib\Less\Tree\Mixin\Call.php:148
+Stack trace:
+#0 C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lib\Less\Tree\Ruleset.php(147): Less_Tree_Mixin_Call->compile(Object(Less_Environment))
+#1 C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lib\Less\Tree\Ruleset.php(88): Less_Tree_Ruleset->EvalMixinCalls(Object(Less_Tree_Ruleset), Object(Less_Environment), 12)
+#2 C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lib\Less\Tree\Ruleset.php(94): Less_Tree_Ruleset->compile(Object(Less_Environment))
+#3 C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lib\Less\Tree\Ruleset.php(94): Less_Tree_Ruleset->compile(Object(Less_Environment))
+#4 C:\wamp\www\glugglugcl
+
+2018-01-15T12:31:28+00:00 CRITICAL Uncaught exception 'Less_Exception_Compiler' with message '.ls_250 is undefined in C:/wamp/www/glugglugclub/wp-content/themes/glugglugclub/includes/css/wp-styles.less' in C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lib\Less\Tree\Mixin\Call.php:148
+Stack trace:
+#0 C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lib\Less\Tree\Ruleset.php(147): Less_Tree_Mixin_Call->compile(Object(Less_Environment))
+#1 C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lib\Less\Tree\Ruleset.php(88): Less_Tree_Ruleset->EvalMixinCalls(Object(Less_Tree_Ruleset), Object(Less_Environment), 10)
+#2 C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lib\Less\Tree\Ruleset.php(94): Less_Tree_Ruleset->compile(Object(Less_Environment))
+#3 C:\wamp\www\glugglugclub\wp-content\plugins\wp-less\vendor\oyejorge\less.php\lib\Less\Tree\Ruleset.php(94): Less_Tree_Ruleset->compile(Object(Less_Environment))
+#4 C:\wamp\www\glugglugclub\wp-c
+
+2018-01-15T14:22:30+00:00 CRITICAL Call to undefined function test()
+
+2018-01-15T14:27:17+00:00 CRITICAL Call to undefined function list_attributes()
+
+2018-01-15T14:27:43+00:00 CRITICAL Call to a member function list_attributes() on a non-object
+
+2018-01-15T14:28:19+00:00 CRITICAL Call to undefined function WC_Product()
+
+2018-01-15T15:11:05+00:00 CRITICAL Call to undefined function get_the_term()
+
+2018-01-15T15:13:31+00:00 CRITICAL Cannot use object of type WP_Term as array
+
+2018-01-15T15:13:40+00:00 CRITICAL Cannot use object of type WP_Term as array
+
+2018-01-15T15:13:49+00:00 CRITICAL Cannot use object of type WP_Term as array
+
+2018-01-15T15:14:25+00:00 CRITICAL Call to undefined method WP_Post::get_the_ID()
+
+2018-01-15T15:14:32+00:00 CRITICAL Call to undefined method WP_Post::get_ID()
+
+2018-01-16T11:03:01+00:00 CRITICAL Call to undefined function rudr_mailchimp_subscriber_status()
+
+2018-01-16T11:03:41+00:00 CRITICAL Call to undefined function rudr_mailchimp_subscriber_status()
+
+2018-01-16T11:04:21+00:00 CRITICAL Call to undefined function rudr_mailchimp_subscriber_status()
+
+2018-01-16T11:05:58+00:00 CRITICAL Call to undefined function rudr_mailchimp_subscriber_status()
+
+2018-01-16T17:10:13+00:00 CRITICAL Cannot use object of type WC_DateTime as array
+
+2018-01-16T17:10:22+00:00 CRITICAL Cannot use object of type WC_DateTime as array
+
+2018-01-17T11:44:49+00:00 CRITICAL Call to undefined method WC_Product_Subscription::permalink()
+
+2018-01-17T13:44:41+00:00 CRITICAL Call to a member function get_items() on a non-object
+
+2018-01-17T13:45:14+00:00 CRITICAL Call to a member function get_items() on a non-object
+
+2018-01-17T13:47:26+00:00 CRITICAL Call to undefined function has_woocommerce_subscription()
+
+2018-01-17T16:55:25+00:00 CRITICAL Call to undefined method WP_Post::ID()
+
+2018-01-18T15:37:58+00:00 CRITICAL Call to undefined function updatePicture()
+
+2018-01-18T15:38:15+00:00 CRITICAL Call to undefined function updatePicture()
+
+2018-01-19T06:03:18+00:00 CRITICAL Maximum execution time of 120 seconds exceeded
+
+2018-01-19T06:03:21+00:00 CRITICAL Maximum execution time of 120 seconds exceeded
+
+2018-01-19T06:03:30+00:00 CRITICAL Maximum execution time of 120 seconds exceeded
+
